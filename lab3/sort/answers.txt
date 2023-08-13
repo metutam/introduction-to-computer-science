@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: The running time of selection sort is Ω(n^2), while the running time of bubble sort is Ω(n). Therefore, the running time of bubble sort must be shorter for sorted numbers.
+
+sort2 uses: Merge Sort
+
+How do you know?: The running time of selection sort and bubble sort is O(n^2), while the running time of merge sort is O(n*logn). Therefore, the running time of merge sort must be shorter for randomly sorted numbers.
+
+sort3 uses: Selection Sort
+
+How do you know?: There is only selection sort left.
