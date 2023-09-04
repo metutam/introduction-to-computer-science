@@ -4,7 +4,7 @@ Toward the beginning of World 1-1 in Nintendo’s Super Mario Brothers, Mario mu
 ![pyramids](https://github.com/metutam/introduction-to-computer-science/assets/138866899/c96c4975-b1b1-40fa-a590-a0b576869fa5)
 
 Let’s recreate those pyramids in C, albeit in text, using hashes (`#`) for bricks, a la the below. Each hash is a bit taller than it is wide, so the pyramids themselves will also be taller than they are wide.
-```bash
+```
    #  #
   ##  ##
  ###  ###
@@ -13,7 +13,7 @@ Let’s recreate those pyramids in C, albeit in text, using hashes (`#`) for bri
 The program we’ll write will be called `mario`. And let’s allow the user to decide just how tall the pyramids should be by first prompting them for a positive integer between, say, 1 and 8, inclusive.
 
 Here’s how the program might work if the user inputs `8` when prompted:
-```bash
+```
 $ ./mario
 Height: 8
        #  #
@@ -27,7 +27,7 @@ Height: 8
 ```
 
 Here’s how the program might work if the user inputs `4` when prompted:
-```bash
+```
 $ ./mario
 Height: 4
    #  #
@@ -37,7 +37,7 @@ Height: 4
 ```
 
 Here’s how the program might work if the user inputs `2` when prompted:
-```bash
+```
 $ ./mario
 Height: 2
  #  #
@@ -45,14 +45,14 @@ Height: 2
 ```
 
 And here’s how the program might work if the user inputs `1` when prompted:
-```bash
+```
 $ ./mario
 Height: 1
 #  #
 ```
 
 If the user doesn’t, in fact, input a positive integer between 1 and 8, inclusive, when prompted, the program should re-prompt the user until they cooperate:
-```bash
+```
 $ ./mario
 Height: -1
 Height: 0
