@@ -11,12 +11,12 @@ What’s all that mean? Well, suppose that a cashier owes a customer some change
 It turns out that this greedy approach (i.e., algorithm) is not only locally optimal but also globally so for America’s currency (and also the European Union’s). That is, so long as a cashier has enough of each coin, this largest-to-smallest approach will yield the fewest coins possible. How few? Well, you tell us!
 
 Your program should behave per the examples below.
-```bash
+```
 $ ./cash
 Change owed: 41
 4
 ```
-```bash
+```
 $ ./cash
 Change owed: -41
 Change owed: foo
