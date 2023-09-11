@@ -1,0 +1,39 @@
+body {
+    background-color: #272829;
+}
+
+.nav-link:link, .nav-link:visited, .nav-link:active {
+    color: #61677A;
+}
+
+.nav-link:hover {
+    color: #D8D9DA;
+}
+
+.title {
+    color: #FFF6E0;
+    font-family: fantasy;
+}
+
+.item {
+    color: #FFF6E0;
+}
+
+.padding-item {
+    padding: 80px;
+}
+
+.font {
+    font-family: Poppins;
+}
+
+.contact-info:link, .contact-info:visited, .contact-info:active {
+    color: #FFF6E0;
+    text-decoration: none;
+}
+
+.contact-info:hover {
+    color: #FFF6E0;
+    text-decoration: none;
+    opacity: 0.5;
+}
